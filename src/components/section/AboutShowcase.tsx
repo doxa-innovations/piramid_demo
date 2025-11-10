@@ -53,7 +53,7 @@ export default function AboutShowcase() {
                 <motion.div {...fadeUp(0.2)} className="md:col-span-8 relative rounded-2xl overflow-hidden">
                     <div className="relative h-[260px] w-full overflow-hidden rounded-xl md:h-[420px]">
                         <Image
-                            src="/viewpicture1.jpg"  // in /public
+                            src="/pyramidview.jpg"  // in /public
                             alt="Lakeside lounge with umbrellas"
                             fill
                             className="object-cover"
@@ -76,13 +76,13 @@ export default function AboutShowcase() {
             <div className="mx-auto mt-14 grid max-w-6xl grid-cols-1 gap-8 px-6 md:mt-20 md:grid-cols-12 md:gap-10">
                 <motion.div {...fadeUp(0.03)} className="md:col-span-4 md:-mt-10 relative border-black/5 shadow-sm backdrop-blur">
                     <div className="relative h-[220px] w-full overflow-hidden rounded-xl md:h-[320px]">
-                        <Image src="/viewpicture2.jpg" alt="Breakfast by the lake" fill className="object-cover" sizes="(min-width: 1024px) 380px, 100vw" quality={95} />
+                        <Image src="/cocktail1.jpg" alt="Breakfast by the lake" fill className="object-cover" sizes="(min-width: 1024px) 380px, 100vw" quality={95} />
                     </div>
                 </motion.div>
 
                 <motion.div {...fadeUp(0.4)} className="md:col-span-8 relative rounded-2xl overflow-hidden">
                     <div className="relative h-[220px] w-full overflow-hidden rounded-xl md:h-[320px]">
-                        <Image src="/pool.jpg" alt="Infinity pool overlooking the lake" fill className="object-cover" sizes="(min-width: 1024px) 380px, 100vw" quality={95} />
+                        <Image src="/windowview.jpg" alt="Infinity pool overlooking the lake" fill className="object-cover" sizes="(min-width: 1024px) 380px, 100vw" quality={95} />
                     </div>
                 </motion.div>
 
@@ -107,7 +107,7 @@ export default function AboutShowcase() {
             <div className="mx-auto mt-10 max-w-6xl px-6 md:mt-14">
                 <motion.div {...fadeUp(0.06)} className="md:col-span-8 relative rounded-2xl overflow-hidden">
                     <div className="relative h-[340px] w-full overflow-hidden rounded-xl md:h-[520px]">
-                        <Image src="/viewpicture3.jpg" alt="Warm bedroom with ambient light" fill className="object-cover" sizes="(min-width: 1024px) 420px, 100vw" quality={95} />
+                        <Image src="/chef.jpg" alt="Warm bedroom with ambient light" fill className="object-cover" sizes="(min-width: 1024px) 420px, 100vw" quality={95} />
                     </div>
                 </motion.div>
             </div>

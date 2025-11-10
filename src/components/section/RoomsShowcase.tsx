@@ -14,9 +14,9 @@ type Room = {
 
 const rooms: Room[] = [
     { title: "Deluxe Room",        price: "$333.0 Night", src: "/room.jpg",  alt: "Deluxe room with warm wood walls" },
-    { title: "Modern Room",        price: "$333.0 Night", src: "/pool.jpg",  alt: "Modern room with soft lighting" },
-    { title: "Cozy Room",          price: "$333.0 Night", src: "/room.jpg",  alt: "Cozy room with green accent wall" },
-    { title: "Family Suite",       price: "$333.0 Night", src: "/room.jpg",  alt: "Family suite with balcony", span: "md:col-span-2" },
+    { title: "Modern Room",        price: "$333.0 Night", src: "/bedroom1.jpg",  alt: "Modern room with soft lighting" },
+    { title: "Cozy Room",          price: "$333.0 Night", src: "/bedroom.jpg",  alt: "Cozy room with green accent wall" },
+    { title: "Family Suite",       price: "$333.0 Night", src: "/bedroom1.jpg",  alt: "Family suite with balcony", span: "md:col-span-2" },
 ];
 
 /* ---- Motion presets (typed to avoid TS errors) ---- */

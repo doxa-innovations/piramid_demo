@@ -67,7 +67,7 @@ export default function Home() {
             >
                 {/* Background Image */}
                 <Image
-                    src="/pyramid.jpg" // place the image under /public/images/
+                    src="/home.jpg" // place the image under /public/images/
                     alt="Pyramid Resort by the lakeside"
                     fill
                     className="object-cover object-center"
