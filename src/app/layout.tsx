@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     },
 
     icons: {
-        icon: "/pyramidlogo.svg",
+        icon: "/pyramidlogo.ico",
     },
 };
 
