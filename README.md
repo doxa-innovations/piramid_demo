@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Overview
 
-## Getting Started
+This project is a frontend-only demo built to showcase:
 
-First, run the development server:
+Luxury brand visual direction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Modern UI presentation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Hero sections with cinematic imagery/video
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Smooth micro-interactions and motion transitions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The design intentionally focuses on emotion and storytelling rather than content overload.
 
-## Learn More
+🛠 Stack
+Tech	Why it was chosen
+Next.js (App Router)	SEO-ready structure + image optimization
+Tailwind CSS v4 (config-less)	Fast design iteration + custom theming via CSS variables
+Framer Motion	Smooth page animations + luxury visual polish
+Next/Image	Automatic responsive image optimization
 
-To learn more about Next.js, take a look at the following resources:
+✨ UI / Design Highlights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Modern glass / smoky UI design system
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Luxury serif typography (Cormorant Garamond)
 
-## Deploy on Vercel
+Smooth scroll-fade and staggered reveal animations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TikTok-style video section embedded as full-visual moment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Responsive layout optimized for mobile or tablet walkthroughs
+
+Prefixed brand colors from the resort’s logo
+
+📂 Project Structure
+
+src/
+├─ app/
+│   ├─ layout.tsx        → Global HTML structure / fonts applied here
+│   ├─ page.tsx          → Home page sections assembled
+│   └─ globals.css       → Tailwind v4 + theme variables + utilities
+└─ components/
+└─ sections/         → Hero, Rooms, Amenities, Footer etc.
+
+Running the Project
+
+Safe to run. No external services. No backend.
+
+Install dependencies
+
+
+
+
+📦 Deployment
+
+Works anywhere that supports Docker or serverless deployment:
+
+Vercel (recommended)
+
+Netlify
+
+Docker (Nixpacks / Dokploy)
+
+✅ Deliverable Status
+Page / Section	Status
+Landing Hero	✅ done
+Booking (CTA section)	✅ done
+TikTok video reveal	✅ done
+About + image collage	✅ done
+Amenities section	✅ done
+Rooms showcase	✅ done
+Footer	✅ done
