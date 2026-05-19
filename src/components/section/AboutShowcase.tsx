@@ -42,12 +42,42 @@ export default function AboutShowcase() {
                         We blend contemporary Ethiopian minimalism with lakeside calm. Enjoy crafted spaces, thoughtful service, and
                         an atmosphere designed for slow mornings and golden-hour evenings.
                     </p>
+
+                    {/* 360° Virtual Tour CTA */}
                     <a
-                        href="#rooms"
-                        className="mt-6 inline-flex items-center justify-center rounded-full border border-neutral-900 px-5 py-2 text-xs uppercase tracking-wider text-neutral-900 transition-colors hover:bg-neutral-900 hover:text-white"
+                        href="https://pyramidresortet.com/VirtualTour/VirtualTour.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+                            mt-6 inline-flex items-center gap-2
+                            rounded-full bg-[#EDB41A]
+                            px-5 py-2.5 text-xs font-semibold
+                            uppercase tracking-[0.18em]
+                            text-neutral-900 shadow-sm
+                            transition hover:brightness-110 active:translate-y-px
+                        "
                     >
-                        Explore
+                        Explore Our 360° Virtual Tour
+                        <span aria-hidden className="text-[11px]">↗</span>
                     </a>
+
+                    {/* Tripadvisor badge */}
+                    <div
+                        className="
+                            mt-4 inline-flex items-center gap-3
+                            rounded-full bg-white/85
+                            px-3 py-2 shadow-sm border border-emerald-100
+                        "
+                    >
+                        <img
+                            src="https://www.designmantic.com/blog/wp-content/uploads/2025/08/Tripadvisor-Logo.jpg"
+                            alt="Tripadvisor logo"
+                            className="h-7 w-auto rounded-full object-contain"
+                        />
+                        <p className="text-[11px] uppercase tracking-[0.18em] text-neutral-700">
+                            Recognized on Tripadvisor
+                        </p>
+                    </div>
                 </motion.div>
 
                 <motion.div {...fadeUp(0.2)} className="md:col-span-8 relative rounded-2xl overflow-hidden">
@@ -76,13 +106,27 @@ export default function AboutShowcase() {
             <div className="mx-auto mt-14 grid max-w-6xl grid-cols-1 gap-8 px-6 md:mt-20 md:grid-cols-12 md:gap-10">
                 <motion.div {...fadeUp(0.03)} className="md:col-span-4 md:-mt-10 relative border-black/5 shadow-sm backdrop-blur">
                     <div className="relative h-[220px] w-full overflow-hidden rounded-xl md:h-[320px]">
-                        <Image src="/cocktail1.jpg" alt="Breakfast by the lake" fill className="object-cover" sizes="(min-width: 1024px) 380px, 100vw" quality={95} />
+                        <Image
+                            src="/cocktail1.jpg"
+                            alt="Breakfast by the lake"
+                            fill
+                            className="object-cover"
+                            sizes="(min-width: 1024px) 380px, 100vw"
+                            quality={95}
+                        />
                     </div>
                 </motion.div>
 
                 <motion.div {...fadeUp(0.4)} className="md:col-span-8 relative rounded-2xl overflow-hidden">
                     <div className="relative h-[220px] w-full overflow-hidden rounded-xl md:h-[320px]">
-                        <Image src="/windowview.jpg" alt="Infinity pool overlooking the lake" fill className="object-cover" sizes="(min-width: 1024px) 380px, 100vw" quality={95} />
+                        <Image
+                            src="/windowview.jpg"
+                            alt="Infinity pool overlooking the lake"
+                            fill
+                            className="object-cover"
+                            sizes="(min-width: 1024px) 380px, 100vw"
+                            quality={95}
+                        />
                     </div>
                 </motion.div>
 
@@ -107,7 +151,14 @@ export default function AboutShowcase() {
             <div className="mx-auto mt-10 max-w-6xl px-6 md:mt-14">
                 <motion.div {...fadeUp(0.06)} className="md:col-span-8 relative rounded-2xl overflow-hidden">
                     <div className="relative h-[340px] w-full overflow-hidden rounded-xl md:h-[520px]">
-                        <Image src="/chef.jpg" alt="Warm bedroom with ambient light" fill className="object-cover" sizes="(min-width: 1024px) 420px, 100vw" quality={95} />
+                        <Image
+                            src="/chef.jpg"
+                            alt="Warm bedroom with ambient light"
+                            fill
+                            className="object-cover"
+                            sizes="(min-width: 1024px) 420px, 100vw"
+                            quality={95}
+                        />
                     </div>
                 </motion.div>
             </div>
